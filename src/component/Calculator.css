@@ -1,0 +1,34 @@
+.cal {
+  height: 70vh;
+  width: 100vw;
+  background-color: rgb(74, 74, 122);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.keys {
+  width: 700px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
+  font-weight: 900;
+  gap: 55px;
+}
+
+.button {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  padding: 0 25px;
+  color: white;
+  background-color: black;
+  border-radius: 0 20%;
+}
+
+.key {
+  position: absolute;
+}
